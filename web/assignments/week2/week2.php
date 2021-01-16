@@ -13,7 +13,7 @@
 <body>
     <header>
         <?php
-          include_once 'includes/nav.html';
+          include '../../includes/nav.html';
           ?>
     </header>
     <h1>Using JavaScript</h1>
