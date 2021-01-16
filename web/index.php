@@ -23,7 +23,7 @@
       <div class="container-fluid"> 
         <div class="row">
             <div class="col-md">
-                <h5>Family</h5>
+                <h3>Family</h3>
                 <img class="photo" src="assets/images/AdobeStock_292115734_lr.png">
                 <div class="info">
                   <div class="text"><blockquote cite="https://www.churchofjesuschrist.org/study/manual/gospel-topics/family?lang=eng">
