@@ -17,7 +17,7 @@ html {
 header {
   display: grid;
   grid-template-columns: auto auto;
-  padding-bottom: 5vh;
+  padding: 3rem;
   background-color:rgba(100, 148, 237, 0.308);
 }
 
