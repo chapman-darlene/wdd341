@@ -19,7 +19,7 @@
           <div class="description"><h1>A Few of My Favorite Things</h1></div>
     </header>
     <section class="main-section">
-            
+      <hr>     
       <div class="container-fluid"> 
         <div class="row">
             <div class="col-md">
