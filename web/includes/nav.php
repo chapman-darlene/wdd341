@@ -1,6 +1,6 @@
-<head>
+<!-- <head>
     <link rel="stylesheet" src="/css/main_style.css">
-</head>
+</head> -->
 
 <header class="main_nav">
     <ul>
