@@ -21,7 +21,7 @@
     <section class="main-section">
       <hr>     
       <div class="container-fluid">
-        <h5>Hover Over an Image to See More Information</h5> 
+        <h5 class="text-animation">Hover Over an Image to See More Information</h5> 
         <div class="row bkg-img">
             <div class="col-md">
                 <h3>Family</h3>
