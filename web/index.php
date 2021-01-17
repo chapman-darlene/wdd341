@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="css/main_style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="css/main_style.css">
+    <link href="css/bootstrap.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!--phpinfo();-->
   </head>
 
@@ -14,9 +14,9 @@
 
     <header>    
         <?php
-          include_once 'includes/nav.html';
+          include_once 'includes/nav.php';
           ?>
-          <div class="description"><h1>A Few of My Favorite Things</h1></div>
+          <h1>A Few of My Favorite Things</h1>
     </header>
     <section class="main-section">
       <hr>     

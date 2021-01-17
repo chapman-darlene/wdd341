@@ -1,6 +1,6 @@
 <?php 
 
-    include 'includes/nav.html';
+    include 'includes/nav.php';
 
     echo "Coming Soon";
 ?>
