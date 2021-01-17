@@ -78,3 +78,8 @@ blockquote {
 .main_nav li {
   padding-left: 1vw;
 }
+
+.col-lg {
+  background-color:rgba(100, 148, 237, 0.308);
+  padding: 2rem 1rem;
+}

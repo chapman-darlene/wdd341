@@ -50,7 +50,13 @@
                   </blockquote></div><!--end block quote-->
                 </div><!--end info-->   
             </div><!--end col-->
-        </div><!--end row-->      
+        </div><!--end row-->
+        <div class="row">
+          <div class="col-lg">
+            <h3>More to Learn</h3>
+            <p>There is always more to learn about a subject or a person. These are only a few of the things that I enjoy, and that make me who I am.</p>
+          </div>
+        </div>    
       </div><!--end container-fluid-->
     </section>
   </body>
