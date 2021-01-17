@@ -86,7 +86,7 @@ blockquote {
 
 .text-animation {
   animation-name: text;
-  animation: text 5s ease infinite;
+  animation: text 5s ease-in-out infinite;
 }
 
 @keyframes text {
