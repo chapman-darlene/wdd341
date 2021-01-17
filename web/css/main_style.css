@@ -92,11 +92,11 @@ blockquote {
 @keyframes text {
   0% {
     color:black;
-    size: default;
+    font-size: default;
   }
   50% {
     color: rgba(100, 148, 237, 0.308);
-    transform:scale(2);
+    font-size: 3rem;
   }
   100% {
     color:black;
