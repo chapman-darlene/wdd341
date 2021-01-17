@@ -75,6 +75,6 @@ blockquote {
   padding-right: 2vw;
 }
 
-.main_nav li:nth-child(2) {
+.main_nav li {
   padding-left: 1vw;
 }
