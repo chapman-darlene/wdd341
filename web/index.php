@@ -21,8 +21,8 @@
     <section class="main-section">
       <hr>     
       <div class="container-fluid">
-        <h2>Hover Over an Image to See More Information</h2> 
-        <div class="row">
+        <h5>Hover Over an Image to See More Information</h5> 
+        <div class="row bkg-img">
             <div class="col-md">
                 <h3>Family</h3>
                 <img class="photo" src="assets/images/AdobeStock_292115734_lr.png">

@@ -83,3 +83,7 @@ blockquote {
   background-color:rgba(100, 148, 237, 0.308);
   padding: 2rem 1rem;
 }
+
+.bkg-img {
+  background-image: "/assets/images/AdobeStock_294375555_lr.png";
+}
