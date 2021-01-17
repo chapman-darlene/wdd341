@@ -63,6 +63,6 @@
 
     <script src="JavaScript/jquery-3.5.1.min.js"></script>
     <script src="JavaScript/jquery-3.5.1.js"></script>
-    <script src="JavaScript/mainScript.js"></script>
+    <script src="JavaScript/main.js"></script>
     <script src="JavaScript/jquery_file.js"></script>
 </html>
