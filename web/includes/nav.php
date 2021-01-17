@@ -1,3 +1,7 @@
+<head>
+    <link rel="stylesheet" src="/css/main_style.css">
+</head>
+
 <header class="main_nav">
     <ul>
         <li><a href="/index.php">Home</a></li>
