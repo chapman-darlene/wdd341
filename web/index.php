@@ -20,7 +20,8 @@
     </header>
     <section class="main-section">
       <hr>     
-      <div class="container-fluid"> 
+      <div class="container-fluid">
+        <h2>Hover Over Image to See More Information</h2> 
         <div class="row">
             <div class="col-md">
                 <h3>Family</h3>
