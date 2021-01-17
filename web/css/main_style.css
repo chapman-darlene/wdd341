@@ -94,14 +94,14 @@ blockquote {
     color:black;
   }
   10% {
-    color: rgba(100, 148, 237, 0.308);
+    color: rgba(212, 160, 14, 0.5);
 
   }
   50% {
-    color: rgba(100, 148, 237);
+    color:rgba(212, 160, 14);
   }
   90%{
-    color: rgba(100, 148, 237, 0.308);
+    color: rgba(212, 160, 14, 0.5);
   }
   100% {
     color:black;
