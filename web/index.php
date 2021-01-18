@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main_style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!--phpinfo();-->
+  
   </head>
 
   <body>
