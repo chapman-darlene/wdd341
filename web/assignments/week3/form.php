@@ -1,5 +1,5 @@
 <?php
-    include '../../css/main_style.css';
+    include '../../includes/nav.php';
 ?>
 <!DOCTYPE html>
     <head>
@@ -9,10 +9,11 @@
 
     <?php
         $name = $email = $major = $comment = $continent = "";
-        $nameErr = $emailErr = $majorErr = $conterr = "";
+        $nameErr = $emailErr = $majorErr = $contErr = "";
 
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
             if (empty($_POST["name"])) {
               $nameErr = "Name is required";
             } else {
@@ -22,7 +23,7 @@
                 $nameErr = "Only letters and white space allowed";
               }
             }
-            
+                        
             if (empty($_POST["email"])) {
               $emailErr = "Email is required";
             } else {
@@ -44,21 +45,22 @@
             } else {
               $major = test_input($_POST["major"]);
             }
-          }
+        
 
           if (empty($_POST["continent"])) {
             $majorErr = "Major is required";
           } else {
             $major = test_input($_POST["major"]);
           }
-        }
-          
+        } //end form post 
+
           function test_input($data) {
             $data = trim($data);
             $data = stripslashes($data);
             $data = htmlspecialchars($data);
             return $data;
           }
+        
     ?>
 
 
@@ -69,26 +71,25 @@
         <p><span class="error">* required field</span></p>
         <form action="" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <!--name input-->
-            <label for="name">Name:</label><br>
+            <label for="name">Name:</label><span class="error"> * <?php echo $nameErr;?></span><br>
             <input type="text" name="name"><br>
-            <span class="error">* <?php echo $nameErr;?></span>
             <br>
             <!--email input-->
-            <label for="email">Email:</label><br>
+
+            <label for="email">Email:</label><span class="error"> * <?php echo $emailErr;?></span><br>
             <input type="text" name="email"><br>
-            <span class="error">* <?php echo $emailErr;?></span>
-            <a href="mailto:#">Send Email</a>
+            <a href="mailto:#">Send Email</a><br>
             <br>
             <!--major input-->
-            <label for="major">Major:</label><br>
+            <label for="major">Major:</label><span class="error"> * <?php echo $majorErr;?></span><br>
             <input type="radio" name="major" value="cs">Computer Science <br>
             <input type="radio" name="major" value="wdd">Web Design and Development <br>
             <input type="radio" name="major" value="cit">Computer information Technology <br>
             <input type="radio" name="major" value="ce">Computer Engineering <br>
-            <span class="error">* <?php echo $majorErr;?></span>
+            
             <br>
             <!--continent input-->
-            <label for="continent">Continents Traveled:</label><br>
+            <label for="continent">Continents Traveled:</label><span class="error"> * <?php echo $contErr;?></span><br>
             <input type="checkbox" name="continent" value="na">North America<br>
             <input type="checkbox" name="continent" value="sa">South America<br>
             <input type="checkbox" name="continent" value="eu">Europe<br>
@@ -96,7 +97,7 @@
             <input type="checkbox" name="continent" value="au">Australia<br>
             <input type="checkbox" name="continent" value="af">Africa<br>
             <input type="checkbox" name="continent" value="an">Antarctica<br>
-            <span class="error">* <?php echo $contErr;?></span>
+            
             <br>
 
              <!--comment input-->
@@ -120,4 +121,3 @@
 
     </body>
 </html>
-
