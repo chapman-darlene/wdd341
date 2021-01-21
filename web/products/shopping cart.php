@@ -18,7 +18,7 @@
 <?php $_SESSION['cart'] = 'cart'; ?>
 <h1>Travel Packages</h1>
  <div class="card">
-    <img src="/assets/images/jupiter.png" alt="Picture of Jupiter" class="img-cart">
+    <img src="../assets/images/jupiter.png" alt="Picture of Jupiter" class="img-cart">
     <h1>Trip to Jupiter</h1>
     <p class="price">$1,500,000</p>
     <p>Enjoy a luxury trip orbiting Jupiter, with a stop on Mars. Stay in the Mars hotel for 7 days and 6 nights before returning to Earth.</p>
@@ -34,8 +34,7 @@
 </div>
 
 <div class="card">
-    <img src="../assets/images/mars.png
-    " alt="Picture of Mars" class="img-cart">
+    <img src="../assets/images/mars.png" alt="Picture of Mars" class="img-cart">
     <h1>Trip to Mars</h1>
     <p class="price">$800,000</p>
     <p>Enjoy the luxury trip to Mars. Stay in the Mars hotel for 7 days and 6 nights before returning to Earth.</p>
