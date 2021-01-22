@@ -14,6 +14,6 @@
     <body>
 
     <header>    
-      <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/navigation.php'; 
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/nav.php'; 
       ?>       
     </header>
