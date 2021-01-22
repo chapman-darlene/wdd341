@@ -1,8 +1,7 @@
 <?php
   //attach header
-  include '../common/header.php'; 
+  include $_SERVER['DOCUMENT_ROOT'] . '/web/common/header.php'; 
 ?>
-
 
 <main>
 
@@ -44,7 +43,7 @@
           <div class="col-lg info-section">
             <h2 class="main-h2">Travel to the Stars</h2>
             <p class="text-p">An exciting new opportunity to travel through our solar system.</p>
-            <p><button class="btn" location.href="travel.php">Learn More</button></p>
+            <?php echo "<button class=\"btn\" \"location.href='travel.php'\">Learn More</button>" ?>
           </div>
         </div>    
       </div><!--end container-fluid-->
