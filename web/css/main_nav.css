@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+  main_nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding-right: 2vw;
+  }
+  
+  .main_nav li {
+    padding-left: 1vw;
+  }

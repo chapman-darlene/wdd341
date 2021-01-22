@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="css/main_style.css">
+    <link href="css/main_nav.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   
@@ -53,8 +54,9 @@
         </div><!--end row-->
         <div class="row">
           <div class="col-lg">
-            <h3>More to Learn</h3>
-            <p>There is always more to learn about a subject or a person. These are only a few of the things that I enjoy, and that make me who I am.</p>
+            <h3>Travel to the Stars</h3>
+            <p>An exciting new opportunity to travel through our solar system.</p>
+            <p><button>Learn More</button></p>
           </div>
         </div>    
       </div><!--end container-fluid-->

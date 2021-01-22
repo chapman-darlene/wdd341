@@ -1,3 +1,8 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -11,12 +16,16 @@
   font-size: 22px;
 }
 
+.description {
+  height: 100px;
+}
+
 .card button {
   border: none;
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color: rgb(150, 81, 16);
   text-align: center;
   cursor: pointer;
   width: 100%;
