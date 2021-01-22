@@ -42,7 +42,7 @@
           <div class="col-lg info-section">
             <h2 class="main-h2">Travel to the Stars</h2>
             <p class="text-p">An exciting new opportunity to travel through our solar system.</p>
-            <p><button class="btn" onclick="location.href='travel.php'">Learn More</button></p>
+            <p><a href="travel.php"><button class="btn">Learn More</button></a></p>
           </div>
         </div>    
       </div><!--end container-fluid-->
