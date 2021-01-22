@@ -1,6 +1,6 @@
 <?php
   //attach header
-  include '../common/header.php'; 
+  include $_SERVER['DOCUMENT_ROOT'] . '/web/common/header.php'; ?>  
 ?>
 
 <main>
