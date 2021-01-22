@@ -1,6 +1,6 @@
 <?php
   //attach header
-  include 'includes/common/header.php'; 
+  include '../includes/common/header.php'; 
 ?>
 
 <main>
