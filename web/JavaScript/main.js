@@ -10,6 +10,8 @@ $('.img-focus').hover(
   }
 );
 
+
+
 // function getPlanet() {
 //     var x = document.getElementById("imgJupiter");
 

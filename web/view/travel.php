@@ -23,7 +23,7 @@
     <h1>Trip to Jupiter</h1>
     <p class="price">$1,500,000</p>
     <p class="description">Enjoy a luxury trip orbiting Jupiter, with a stop on Mars. Stay in the Mars hotel for 7 days and 6 nights before returning to Earth.</p>
-    <p><button>Add to Cart</button></p>
+    <p><button id="addCart" onclick='window.location.href="cart.php"'>Add to Cart</button></p>
 </div>
 
 <div class="card">

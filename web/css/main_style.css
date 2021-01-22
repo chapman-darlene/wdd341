@@ -15,10 +15,11 @@ html {
 }
 
 header {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 2rem 1rem;
-  background-color:rgba(100, 148, 237, 0.308);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  padding: 1rem 1rem;
+  background-color: #137D91;
 }
 
 body {
@@ -32,14 +33,48 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
+    color:#06272E;
+    padding: 1rem 0 0 0;
 }
 
-.row {
-  padding-top: 4vh;
-  display: grid;
-  grid-template-columns: repeat(1fr);
+.main-h1 {
+  padding: 2rem 0 1rem 0;
+  font-size: 3rem;
+  color: #06272E;
 }
 
+.main-h2 {
+  color: #FFF;
+}
+
+.main-section {
+  padding-top: 2rem;
+}
+
+.row{
+  padding-top: 3rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.col-md {
+  max-width: 300px;
+}
+
+.col-lg{
+  width: 100%;
+}
+
+.info-section {
+  color: #fff;
+  background-color: #137D91;
+  padding: 1.5rem 1rem;
+}
+
+.text-p {
+  color: #fff;
+}
 
 img {
   max-width: 20vw;
@@ -58,7 +93,6 @@ img:hover + .info{
 
 .text {
   padding-top: 2rem;
-  padding-right: 3rem;
 }
 
 blockquote {
@@ -66,27 +100,38 @@ blockquote {
   font-style: italic;
 }
 
-.col-lg {
-  background-color:rgba(100, 148, 237, 0.308);
-  padding: 2rem 1rem;
-}
 
 .text-animation {
+  font-size: 1.5rem;
+  color:#137D91;
   animation-name: text;
-  animation: text 5s ease-in-out infinite;
+  animation: text 10s ease-in-out infinite;
 }
 
 @keyframes text {
   0% {
-    color:black;
+    color:#137D91;
   }
   
-  50% {
-    color:rgba(212, 160, 14);
+  25% {
+    color:#DE9D07;
   }
  
   100% {
-    color:black;
-    
+    color: #137D91;
   }  
+}
+
+.btn {
+  background-color: #DE9D07;
+  color: #fff;
+  padding: .5rem;
+  margin-top: 1.25rem;  
+}
+
+.btn:hover {
+  background-color: #12BCDE;
+  color: #fff;
+  padding: .5rem;
+  margin-top: 1.25rem;  
 }
