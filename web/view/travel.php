@@ -33,6 +33,8 @@ if (! isset ( $_SESSION ['cart'] )) {
             <p><input type="number" name="ticket[]" value="0" hidden></p>
             <p><input type="submit" class="card-button" name="buy" value="Add to Cart"></p>
         </div> <!--end card -->
+    </form>
+    <form class="main-form" action="cart.php" method="POST">
         <div class="card">
             <img src="../assets/images/venus.png" alt="Picture of Venus" class="img-cart">
             <h1>Trip to Venus</h1>
@@ -41,7 +43,8 @@ if (! isset ( $_SESSION ['cart'] )) {
             <p><input type="number" name="ticket[]" value="1" hidden></p>
             <p><input type="submit" class="card-button" name="buy" value="Add to Cart"></p>
         </div> <!--end card -->
-    
+    </form>
+    <form class="main-form" action="cart.php" method="POST">
         <div class="card">
             <img src="../assets/images/mars.png" alt="Picture of Mars" class="img-cart">
             <h1>Trip to Mars</h1>
@@ -50,7 +53,8 @@ if (! isset ( $_SESSION ['cart'] )) {
             <p><input type="number" name="ticket[]" value="2" hidden></p>
             <p><input type="submit" class="card-button" name="buy" value="Add to Cart"></p>
         </div> <!--end card -->
-        <form action="cart.php" method="POST">
+    </form>
+    <form class="main-form" action="cart.php" method="POST">
         <div class="card">
             <img src="../assets/images/saturn.png" alt="Picture of Saturn" class="img-cart">
             <h1>Trip to Saturn</h1>
@@ -59,7 +63,7 @@ if (! isset ( $_SESSION ['cart'] )) {
             <p><input type="number" name="ticket[]" value="3" hidden></p>
             <p><input type="submit" class="card-button" name="buy" value="Add to Cart"></p>
         </div> <!--end card -->
-        </form>
+    </form>
 
         <div class="view-cart">
         <a href="/view/cart.php"><button class="btn">View Cart</button></a>
