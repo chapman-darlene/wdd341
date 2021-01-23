@@ -4,20 +4,7 @@
     session_start();
     $cart = $_SESSION['cart'];
 
-// set Session
-if (! isset ( $_SESSION ['cart'] )) {
-    $_SESSION ['cart'] = array($ticket);
-}
 
-// Add
-    if (isset ( $_POST ["buy"] )) {
-        $ticket = $_POST['ticket[]'];
-        // Check the item is not already in the cart
-        if (!in_array($_POST ["buy"], $_SESSION['cart'])) {
-            // Add new item to cart
-            $_SESSION ['cart'][] = $_POST["buy"];
-        }
-    }
 
 ?>
 
