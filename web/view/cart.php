@@ -35,8 +35,6 @@ $cart = $_SESSION['cart'];
               );
           }
       }//end foreach
-      $buy = $_POST["buy"];
-      echo $buy;
-      echo $ticket;
+    echo $ticket;
   
 ?>
