@@ -37,7 +37,4 @@ session_start();
       echo $buy;
       echo $ticket;
   
-     
-    
-
 ?>
