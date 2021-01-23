@@ -1,6 +1,8 @@
 <?php
 
 session_start();
+$cart = $_SESSION['cart'];
+
       $itemName;
       $price;
       $itemNumber;
