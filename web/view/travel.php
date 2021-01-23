@@ -1,7 +1,7 @@
 <?php
     include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
 
-  
+    session_start();
     $cart = $_SESSION['cart'];
 
 
@@ -28,36 +28,32 @@ if (! isset ( $_SESSION ['cart'] )) {
         <div class="card">
             <img src="../assets/images/jupiter.png" alt="Picture of Jupiter" class="img-cart">
             <h1>Trip to Jupiter</h1>
-            <p class="price">$1,500,000 per person</p>
+            <p class="price">$1,500,000*<br> per person</p>
             <p class="description">Enjoy a luxury trip orbiting Jupiter, with a stay in the elite resort hotel on Mars, for 7 days and 6 nights before returning to Earth.</p>
-            <input type="hidden" name="ticket[]">
-            <p><input type="submit" class="card-button" name="buy"></p>
+            <p><input type="submit" class="card-button" value="0" name="buy">Add to Cart</p>
         </div> <!--end card -->
         <div class="card">
             <img src="../assets/images/venus.png" alt="Picture of Venus" class="img-cart">
             <h1>Trip to Venus</h1>
-            <p class="price">$800,000</p>
+            <p class="price">$800,000*<br>per person</p>
             <p class="description">Enjoy a luxury trip orbiting Venus. Stay in the elite resort hotel on the Moon for 4 days and 3 nights before returning to Earth</p>
-            <input type="hidden" name="ticket[]">
-            <p><input type="submit" class="card-button" name="buy"></p>
+            <p><input type="submit" class="card-button" value="1" name="buy">Add to Cart</p>
         </div> <!--end card -->
     
         <div class="card">
             <img src="../assets/images/mars.png" alt="Picture of Mars" class="img-cart">
             <h1>Trip to Mars</h1>
-            <p class="price">$900,000</p>
+            <p class="price">$900,000*<br>per person</p>
             <p class="description">Enjoy a luxury trip to Mars. Stay in the elite resort hotel on Mars for 7 days and 6 nights before returning to Earth.</p>
-            <input type="hidden" name="ticket[]">
-            <p><input type="submit" class="card-button" value="Add to Cart" name="buy"></p>
+            <p><input type="submit" class="card-button" value="3" name="buy">Add to Cart</p>
         </div> <!--end card -->
         <form action="cart.php" method="POST">
         <div class="card">
             <img src="../assets/images/saturn.png" alt="Picture of Saturn" class="img-cart">
             <h1>Trip to Saturn</h1>
-            <p class="price">$200,000</p>
+            <p class="price">$2,000,000*<br>per person</p>
             <p class="description">Enjoy a luxury trip orbiting Saturn, with a stay in the elite resort hotel on Mars, for 7 days and 6 nights before returning to Earth.</p>
-            <input type="hidden" name="ticket[]">
-            <p><input type="submit" class="card-button" value="Add to Cart" name="buy"></p>
+            <p><input type="submit" class="card-button" value ="4" name="buy">Add to Cart</p>
         </div> <!--end card -->
         </form>
 
