@@ -6,15 +6,18 @@ session_start();
 
 
 
-if (!isset($SESSION['cart'])) {
+if (!isset($_SESSION['cart'])) {
     $_SESSION['cart'] = array();
     array_push($_SESSION['cart'], $_POST);
     print_r($_SESSION['cart']);
-} 
+}elseif(isset($_SESSION['cart'])){
+    array_push($_SESSION['cart'], $_POST);
+    print_r($_SESSION['cart']);
+}
 
 
 
-// Add
+// //Add
 // if (isset ( $_POST ["action"] )) {
 //     // Check the item is not already in the cart
 //     if (!in_array($_POST ["action"], $_SESSION['cart'])) {
@@ -34,16 +37,20 @@ if (!isset($SESSION['cart'])) {
 
 <main>
     <div class="container">
-        <table class ="main–table">
+        <table class ="main–table card">
         <thead>Your ordered a trip to:</thead>
         <tr>
         <td><?php echo "Planet: " . htmlspecialchars($_POST["planet"]) ?>
         </td>
         </tr>
         <tr>
-        <td>The cost is: <?php echo "Price: " . htmlspecialchars($_POST["price"])  ?></td>
+        <td>The cost is: <?php echo "Price: $" . number_format($_POST["price"]) ?></td>
         </tr>
         </table>
+
+        <a href="travel.php"><button>Continue Shopping</button></a>
+
+
 
     </div>
 </main>
