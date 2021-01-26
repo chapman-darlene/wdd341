@@ -53,7 +53,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
 		<form action="cart.php" method="POST" class="main-form">
             <img src="../assets/images/saturn.png" alt="Picture of Saturn" class="img-cart">
             <h1>Trip to Saturn</h1>
-            <p class="price">$2,000,000*<br>per person</p>
+            <p class="price">$2,000,000* per person</p>
             <p class="description">Enjoy a luxury trip orbiting Saturn, with a stay in the elite resort hotel on Mars, for 7 days and 6 nights before returning to Earth.</p>
             <input type="text" name="planet" value="Saturn" hidden>
 			<input type="number" name="price" value="2000000" hidden>
