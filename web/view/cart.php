@@ -36,6 +36,7 @@ if (!isset($_SESSION['cart'])) {
 ?>
 
 <main>
+    <div><p>Your shopping cart contains <?php echo count($_SESSION['cart']); ?> items.</p><a href="?cart"></a></div>
     <div class="container">
         <table class ="main–table card">
         <thead>Your ordered a trip to:</thead>
