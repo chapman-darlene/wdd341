@@ -1,56 +1,49 @@
-<?php
+<?php 
+
+include_once $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
 
 session_start();
-$cart = $_SESSION['cart'];
 
-// set Session
-if (! isset ( $_SESSION ['cart'] )) {
-    $_SESSION ['cart'] = array($ticket);
-}
+
+
+if (!isset($SESSION['cart'])) {
+    $_SESSION['cart'] = array();
+    array_push($_SESSION['cart'], $_POST);
+    print_r($_SESSION['cart']);
+} 
+
+
 
 // Add
-    if (isset ( $_POST ["buy"] )) {
-        $ticket = $_POST['ticket[]'];
-        // Check the item is not already in the cart
-        if (!in_array($_POST ["buy"], $_SESSION['cart'])) {
-            // Add new item to cart
-            $_SESSION ['cart'][] = $_POST["buy"];
-        }
-    }
+// if (isset ( $_POST ["action"] )) {
+//     // Check the item is not already in the cart
+//     if (!in_array($_POST ["action"], $_SESSION['cart'])) {
+//         // Add new item to cart
+//         $_SESSION ['cart'][] = $_POST["action"];
+//     }
+// }
 
-      $itemName;
-      $price;
-      $itemNumber;
-      $ticket = $_POST['ticket[]'];
-      foreach($ticket as $selected){
-  
-          if ($selected == 0) {
-              $ticket = array(
-                  $itemName = 'jupiter',
-                  $price = 1750000,
-                  $itemNumber = 1
-              );
-          }elseif($selected == 1) {
-              $ticket = array(
-                  $itemName = 'venus',
-                  $price = 800000,
-                  $itemNumber = 1
-              );
-          }elseif($selected == 2) {
-              $ticket = array(
-                  $itemName = 'mars',
-                  $price = 900000,
-                  $itemNumber = 1
-              );
-          }elseif($selected == 3) {
-              $ticket = array(
-                  $itemName = 'saturn',
-                  $price = 2000000,
-                  $itemNumber = 1
-              );
-          }
-      }//end foreach
-    echo $ticket;
-    echo $cart;
+// else if (isset ( $_POST ['delete'] )) { // a remove button has been clicked
+//     // Remove the item from the cart
+//     if (false !== $key = array_search($_POST['delete'], $_SESSION['cart'])) {
+//         unset($_SESSION['cart'][$key]);
+//     }
+// }
   
 ?>
+
+<main>
+    <div class="container">
+        <table class ="main–table">
+        <thead>Your ordered a trip to:</thead>
+        <tr>
+        <td><?php echo "Planet: " . htmlspecialchars($_POST["planet"]) ?>
+        </td>
+        </tr>
+        <tr>
+        <td>The cost is: <?php echo "Price: " . htmlspecialchars($_POST["price"])  ?></td>
+        </tr>
+        </table>
+
+    </div>
+</main>
