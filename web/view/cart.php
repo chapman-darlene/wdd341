@@ -46,7 +46,7 @@ if (!isset($_SESSION['cart'])) {
 <main>
     
     <div class="container">
-        <table class ="main–table card">
+        <table class ="main–table">
         <thead>Your ordered a trip to:</thead>
         <tr>
         <td><?php echo "Planet: " . htmlspecialchars($_POST["planet"]) ?>
