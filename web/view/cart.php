@@ -9,11 +9,14 @@ session_start();
 if (!isset($_SESSION['cart'])) {
     $_SESSION['cart'] = array();
     array_push($_SESSION['cart'], $_POST);
-    print_r($_SESSION['cart']);
-}elseif(isset($_SESSION['cart'])){
-    array_push($_SESSION['cart'], $_POST);
-    print_r($_SESSION['cart']);
+   
 }
+
+// elseif(!in_array($_POST ["action"], $_SESSION['cart'])) {
+//             // Add new item to cart
+//             $_SESSION ['cart'][] = $_POST["action"];
+        
+//     }
 
 
 
@@ -26,17 +29,22 @@ if (!isset($_SESSION['cart'])) {
 //     }
 // }
 
-// else if (isset ( $_POST ['delete'] )) { // a remove button has been clicked
+// if (isset ( $_POST ['delete'] )) { // a remove button has been clicked
 //     // Remove the item from the cart
-//     if (false !== $key = array_search($_POST['delete'], $_SESSION['cart'])) {
-//         unset($_SESSION['cart'][$key]);
+//     if(!empty($_SESSION["cart"])) {
+
+//         foreach($_SESSION["cart"] as $select => $val) {  
+    
+//             unset($_SESSION["cart"]);
+    
+//         }    
 //     }
 // }
   
 ?>
 
 <main>
-    <div><p>Your shopping cart contains <?php echo count($_SESSION['cart']); ?> items.</p><a href="?cart"></a></div>
+    
     <div class="container">
         <table class ="main–table card">
         <thead>Your ordered a trip to:</thead>
@@ -48,8 +56,9 @@ if (!isset($_SESSION['cart'])) {
         <td>The cost is: <?php echo "Price: $" . number_format($_POST["price"]) ?></td>
         </tr>
         </table>
-
+        <br>
         <a href="travel.php"><button>Continue Shopping</button></a>
+        
 
 
 

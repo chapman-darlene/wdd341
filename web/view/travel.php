@@ -4,8 +4,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
 	
 	session_start();
 	$_SESSION['cart'] = array();
-	$cart = $_SESSION['cart'];
-	
+	$_POST['action'] = array();
 
 ?>
 
