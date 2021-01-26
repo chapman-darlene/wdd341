@@ -1,9 +1,7 @@
 <?php
-	//include_once $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
-	//include 'product.php';
-	//include '../common/header.php';
-	//include '../common/nav.php';
-	//session_name('cart');
+
+include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php'; 
+	
 	session_start();
 	
 
