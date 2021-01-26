@@ -1,6 +1,6 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php'; 
+include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
 	
 	session_start();
 	
@@ -15,7 +15,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
 	<div class="card">
 		<form action="cart.php" method="POST" class="main-form">
 			<img src="../assets/images/jupiter.png" alt="Picture of Jupiter" class="img-cart">
-			<h1>Trip to Jupiter></h1>
+			<h1>Trip to Jupiter</h1>
 			<p class="price">$1,750,000* per person</p>
 			<p class="description">Enjoy a luxury trip orbiting Jupiter, with a stay in the elite resort hotel on Mars, for 7 days and 6 nights before returning to Earth.</p>
 			
@@ -28,7 +28,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
 	<div class="card">
 		<form action="cart.php" method="POST" class="main-form">
 			<img src="../assets/images/venus.png" alt="Picture of Venus" class="img-cart">
-			<h1>Trip to Venus></h1>
+			<h1>Trip to Venus</h1>
 			<p class="price">$800,000* per person</p>
 			<p class="description">Enjoy a luxury trip orbiting Venus. Stay in the elite resort hotel on the Moon for 4 days and 3 nights before returning to Earth</p>			
 			<input type="text" name="planet" value="Venus" hidden>
