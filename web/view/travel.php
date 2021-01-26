@@ -10,7 +10,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
 ?>
 
 <main>
-<div><p>Your shopping cart contains <?php echo count($_SESSION['cart']); ?> items.</p><a href="?cart"></a></div>
+<!-- <div><p>Your shopping cart contains <?php echo count($_SESSION['cart']); ?> items.</p><a href="?cart"></a></div> -->
 
     <h1>Travel Packages</h1>
     <div class="container">
