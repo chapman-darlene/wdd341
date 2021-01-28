@@ -18,7 +18,7 @@ if (!isset($_SESSION['cart'])) {
 $planet = htmlspecialchars($_POST["planet"]);
 $price = htmlspecialchars(number_format($_POST["price"]));
    
-print_r($_SESSION['cart']);
+//print_r($_SESSION['cart']);
 
   
 ?>
