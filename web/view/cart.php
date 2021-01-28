@@ -38,3 +38,5 @@ $price = htmlspecialchars(number_format($_POST["price"]));
 
     </div>
 </main>
+</body>
+</html>
