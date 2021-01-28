@@ -47,7 +47,7 @@
   opacity: 0.7;
 }
 
-.cart {
+.cart-display {
   display: flex;
   justify-content: center;
   background-color:#e0cd9f;

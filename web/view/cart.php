@@ -24,7 +24,7 @@ print_r($_SESSION['cart']);
 <main>
     
     <div class="container">
-        <div class="cart">
+        <div class="cart-display">
             <h1 class="cart-h1">Your Ticket Purchase:</h1><br>
             <br>
             <h3 class="cart-h3"><?php echo "Planet: " . $planet; ?></h3><br>
