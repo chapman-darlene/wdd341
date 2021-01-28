@@ -47,7 +47,7 @@
   opacity: 0.7;
 }
 
-.main-table {
+.cart {
   display: flex;
   flex-flow: column wrap;
   background-color: #a2a2a2;

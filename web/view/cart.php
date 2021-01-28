@@ -26,16 +26,14 @@ $price = htmlspecialchars(number_format($_POST["price"]));
 <main>
     
     <div class="container">
-       <h1>Your Ticket Purchase:<br>
-       <br>
+        <div class="cart">
+            <h1>Your Ticket Purchase:</h1><br>
+            <br>
             <h3 class="cart-h3"><?php echo "Planet: " . $planet; ?></h3><br>
             <h3 class="cart-h3"><?php echo "Price: $" . $price; ?></h3>
-        <br>
-        <a href="travel.php"><button  class="btn table-btn" >Continue Shopping</button></a>
-        
-
-
-
+            <br>
+            <a href="travel.php"><button  class="btn table-btn" >Continue Shopping</button></a>
+        </div>
     </div>
 </main>
 </body>
