@@ -17,6 +17,7 @@
   margin: auto;
   text-align: center;
   font-family: arial;
+  padding-top: 1vh;
 }
 
 .price {
@@ -42,4 +43,13 @@
 
 .card-button:hover {
   opacity: 0.7;
+}
+
+.main-table {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #a2a2a2;
+  margin: 1vh;
+  padding: 1vh;
+  border: 1px solid #000;
 }

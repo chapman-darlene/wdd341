@@ -1,7 +1,8 @@
 <?php
 
 include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
-	
+
+	session_name('cart');
 	session_start();
 	$_SESSION['cart'] = array();
 	$_POST['action'] = array();
