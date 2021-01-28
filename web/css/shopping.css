@@ -58,7 +58,9 @@
 }
 
 
-
+.cart-container {
+   margin: 2rem;
+}
 .cart-h1 {
   color:#08333b;
 }
