@@ -126,12 +126,14 @@ blockquote {
   background-color: #DE9D07;
   color: #fff;
   padding: .5rem;
-  margin-top: 1.25rem;  
+  margin-top: 1.25rem;
+  cursor: pointer; 
 }
 
 .btn:hover {
   background-color:#137D91;
   color: #fff;
   padding: .5rem;
-  margin-top: 1.25rem;  
+  margin-top: 1.25rem;
+  cursor: pointer;
 }

@@ -42,19 +42,11 @@ $price = htmlspecialchars(number_format($_POST["price"]));
             <thead>Items in your cart:</thead>
             <tr>
                 <td>
-                    <?php 
-                        foreach($_POST as $item){
-                            $planet = htmlspecialchars($_POST['planet']);
-                            $price = htmlspecialchars(number_format($_POST['price']));
-                            echo '<tr><td>' .$planet .'</td><td>' .$price. '</td></tr>';
-                        }
-                        
-                    ?>
 
                 </td>
             </tr>
         </table>
-        <a href="travel.php"><button>Continue Shopping</button></a>
+        <a href="travel.php"><button  class="btn table-btn" >Continue Shopping</button></a>
         
 
 
