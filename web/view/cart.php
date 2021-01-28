@@ -37,15 +37,6 @@ $price = htmlspecialchars(number_format($_POST["price"]));
             </tr>
         </table>
         <br>
-
-        <table class="main-table">
-            <thead>Items in your cart:</thead>
-            <tr>
-                <td>
-
-                </td>
-            </tr>
-        </table>
         <a href="travel.php"><button  class="btn table-btn" >Continue Shopping</button></a>
         
 

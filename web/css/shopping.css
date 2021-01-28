@@ -52,6 +52,7 @@
   margin: 1vh;
   padding: 1vh;
   border: 1px solid #000;
+  max-width: 100%;
 }
 
 .table-btn {
