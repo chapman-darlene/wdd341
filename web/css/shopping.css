@@ -50,17 +50,20 @@
 .cart {
   display: flex;
   flex-flow: column wrap;
-  background-color: #a2a2a2;
+  background-color: #cecece;
   margin: 1vh;
   padding: 1vh;
   border: 1px solid #000;
-  max-width: 100%;
+  min-width: 100%;
 }
 
 .table-btn {
   margin-top: 2vh;
 }
 
+.cart-h1 {
+  color:rgba(0, 0, 0, 0.2)
+}
 .cart-h3{
   color:#DE9D07;
   padding-bottom: 1vh;
