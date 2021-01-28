@@ -9,6 +9,7 @@
   flex-flow: row wrap;
   width: 100%;
   justify-content: center;
+  padding-top: 1vh;
 }
 
 .card {
@@ -16,8 +17,7 @@
   max-width: 400px;
   margin: auto;
   text-align: center;
-  font-family: arial;
-  padding-top: 1vh;
+  font-family: arial;  
 }
 
 .price {
@@ -61,4 +61,5 @@
 
 .cart-h3{
   color:#DE9D07;
+  padding-bottom: 1vh;
 }
