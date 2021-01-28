@@ -51,8 +51,8 @@
   display: flex;
   flex-flow: column wrap;
   background-color: #cecece;
-  margin: 1vh;
-  padding: 1vh;
+  margin: 3vh;
+  padding: 2vh;
   border: 1px solid #000;
   min-width: 100%;
 }
