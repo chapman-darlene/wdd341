@@ -26,9 +26,9 @@ print_r($_SESSION['cart']);
 <main>
     
     <div class="container">
-       <h1>Your Ticket Purchase:
-            <h3><?php echo "Planet: " . $planet; ?></h3>
-            <h3><?php echo "Price: $" . $price; ?></h3>
+       <h1>Your Ticket Purchase:<br>
+            <h3 class="cart-h3"><?php echo "Planet: " . $planet; ?></h3><br>
+            <h3 class="cart-h3"><?php echo "Price: $" . $price; ?></h3>
         <br>
         <a href="travel.php"><button  class="btn table-btn" >Continue Shopping</button></a>
         
