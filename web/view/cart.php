@@ -18,7 +18,7 @@ if (!isset($_SESSION['cart'])) {
 $planet = htmlspecialchars($_POST["planet"]);
 $price = htmlspecialchars(number_format($_POST["price"]));
    
-//print_r($_SESSION['cart']);
+print_r($_SESSION['cart']);
 
   
 ?>
@@ -26,16 +26,9 @@ $price = htmlspecialchars(number_format($_POST["price"]));
 <main>
     
     <div class="container">
-        <table class ="main–table">
-        <thead>Your ordered a trip to:</thead>
-            <tr>
-                <td><?php echo "Planet: " . $planet; ?>
-                </td>
-            </tr>
-            <tr>
-                <td>The cost is: <?php echo "Price: $" . $price; ?></td>
-            </tr>
-        </table>
+       <h1>Your Ticket Purchase:
+            <h3><?php echo "Planet: " . $planet; ?></h3>
+            <h3><?php echo "Price: $" . $price; ?></h3>
         <br>
         <a href="travel.php"><button  class="btn table-btn" >Continue Shopping</button></a>
         
