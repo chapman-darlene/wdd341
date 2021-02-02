@@ -40,7 +40,7 @@ function dbConnect(){
 dbConnect();
 
     echo '<h1>Scriptures Resources</h1>';
-    foreach($db->query('SELECT * FROM Scriptures') AS $row)
+    foreach($db->query('SELECT book, chapter, verse, content FROM Scriptures') AS $row)
     {
       echo '<b>'.$row['book'].' '.$row['chapter']. ':' .$row['verse'].'-</b> "' .$row['content']. '"';
     }
