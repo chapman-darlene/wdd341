@@ -1,6 +1,6 @@
 <?php
 
-   include '../common/header.php';
+function dbConnect(){  
 
     // default Heroku Postgres configuration URL
     $dbUrl = getenv('DATABASE_URL');
@@ -35,6 +35,10 @@
     {
     print "<p>$row[0]</p>\n\n";
     }
+}
+
+dbConnect();
+
 ?>
 
 

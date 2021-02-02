@@ -1,6 +1,6 @@
 <?php
   //attach header
-  require_once $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
+  include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
   //require_once '../common/header.php';
   //require_once  '../library/connections.php';?>
   
