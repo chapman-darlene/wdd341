@@ -43,6 +43,7 @@ dbConnect();
     foreach($db->query('SELECT book, chapter, verse, content FROM Scriptures') AS $row)
     {
       echo '<b>'.$row['book'].' '.$row['chapter']. ':' .$row['verse'].'-</b> "' .$row['content']. '"';
+      echo 'hello';
     }
 ?>
 
