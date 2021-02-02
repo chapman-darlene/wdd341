@@ -5,7 +5,7 @@
 require_once '/library/connections.php';
 //link helper functions
 //require_once 'library/functions.php';
-//link acme model
+//link model
 //require_once 'model/';
 //link accounts-model
 //require_once 'model/accounts-model.php';

@@ -13,9 +13,8 @@
     
     </head>
 
-      <body>
+ <body>
 
-      <header>    
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/nav.php'; 
-        ?>       
-      </header>
+    <header>    
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '../common/nav.php'; ?>       
+    </header>
