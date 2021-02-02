@@ -1,4 +1,4 @@
-<?php echo '<nav class="navbar navbar-expand-sm colors">
+<?php echo '<nav class="navbar navbar-expand-sm navbar-light">
   <!-- Brand -->
   <a class="navbar-brand" href="#">WDD341</a>
 
