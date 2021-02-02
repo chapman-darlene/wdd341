@@ -2,7 +2,7 @@
   //main controller file
 
 //link database connection by require_once call
-//require_once '/library/connections.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/library/connections.php';
 //link helper functions
 //require_once 'library/functions.php';
 //link model
