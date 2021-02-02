@@ -1,6 +1,6 @@
 <?php
 
-   
+   include '../common/header.php';
 
     // default Heroku Postgres configuration URL
     $dbUrl = getenv('DATABASE_URL');
@@ -35,6 +35,8 @@
     {
     print "<p>$row[0]</p>\n\n";
     }
-
-
 ?>
+
+
+</main>
+</html>
