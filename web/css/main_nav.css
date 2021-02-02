@@ -25,11 +25,9 @@
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;  
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -41,7 +39,6 @@
   
   .dropdown-content {
     display: none;
-    position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -49,9 +46,7 @@
   }
   
   .dropdown-content a {
-    float: none;
-    color:#a2a2a2;
-    padding: 12px 16px;
+    color:#06272E;
     text-decoration: none;
     display: block;
     text-align: left;
