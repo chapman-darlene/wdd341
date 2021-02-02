@@ -1,6 +1,7 @@
 <?php
   //attach header
-  include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php'; 
+  //require_once $_SERVER['DOCUMENT_ROOT'] . '/common/header.php';
+  require_once '../common/header.php';
   require_once  '../library/connections.php';?>
   
 
@@ -49,7 +50,6 @@
         </div>    
       </div><!--end container-fluid-->
     </section>
-  </
   </body>
 
     <script src="JavaScript/jquery-3.5.1.min.js"></script>
