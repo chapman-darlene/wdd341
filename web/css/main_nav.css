@@ -58,7 +58,7 @@
   }
   
   .dropdown-content a:hover {
-    background-color: #DE9D07
+    background-color: #DE9D07;
   }
   
   .dropdown:hover .dropdown-content {
