@@ -1,4 +1,8 @@
+
+
 <?php
+include '../common/header.php';
+
 
 function dbConnect(){  
 
@@ -31,14 +35,15 @@ function dbConnect(){
     die();
     }
 
-    foreach ($db->query('SELECT now()') as $row)
-    {
-    print "<p>$row[0]</p>\n\n";
     }
-}
 
 dbConnect();
 
+    echo '<h1>Scriptures Resources</h1>';
+    foreach($db->query('SELECT * FROM Scriptures') AS $row)
+    {
+      echo '<b>'.$row['book'].' '.$row['chapter']. ':' .$row['verse'].'-</b> "' .$row['content']. '"';
+    }
 ?>
 
 
