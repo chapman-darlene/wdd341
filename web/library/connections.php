@@ -2,9 +2,7 @@
 
 <?php
 include '../common/header.php';
-
-
-function dbConnect(){  
+ 
 
     // default Heroku Postgres configuration URL
     $dbUrl = getenv('DATABASE_URL');
@@ -37,16 +35,15 @@ function dbConnect(){
 
     }
 
-dbConnect();
+?>
 
-    echo '<h1>Scriptures Resources</h1>';
-    foreach($db->query('SELECT book, chapter, verse, content FROM scriptures') AS $row)
+<h1>Scriptures Resources</h1>';
+    <?php foreach($db->query('SELECT book, chapter, verse, content FROM scriptures') AS $row)
     {
       echo '<b>'.$row['book'].' '.$row['chapter']. ':' .$row['verse'].'-</b> "' .$row['content']. '"';
       echo 'hello';
     }
-?>
-
+    ?>
 
 </main>
 </html>
